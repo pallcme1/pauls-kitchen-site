@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Top Supplement Picks | Paul's Product Evaluations</title>
+<meta name="description" content="Paul's clean supplement buying guide with six practical product recommendation categories and Amazon affiliate links." />
+<style>
+  :root {
+    --navy: #07101d;
+    --navy2: #0b1728;
+    --yellow: #ffd014;
+    --red: #d62020;
+    --cream: #fff7e4;
+    --paper: #fffdf7;
+    --ink: #101522;
+    --muted: #5c6472;
+    --border: #111827;
+    --green: #1f8f4d;
+    --blue: #1d75d8;
+    --purple: #7a33b5;
+    --gold: #c18400;
+    --slate: #596779;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--ink);
+    background:
+      radial-gradient(circle at top left, rgba(255,208,20,.28), transparent 30%),
+      radial-gradient(circle at top right, rgba(214,32,32,.18), transparent 32%),
+      linear-gradient(180deg, var(--navy) 0%, var(--navy2) 330px, #eadfc9 330px, #f3eadb 100%);
+  }
+
+  a { color: inherit; }
+
+  .topbar {
+    background: #020713;
+    color: #fff;
+    border-bottom: 5px solid var(--yellow);
+    padding: 14px 18px;
+  }
+
+  .topbar-inner {
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .brand {
+    font-size: 1.1rem;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+  }
+
+  .brand span { color: var(--yellow); }
+
+  .top-note {
+    color: #d9e1f0;
+    font-size: .95rem;
+  }
+
+  .wrap {
+    max-width: 1180px;
+    margin: auto;
+    padding: 28px 18px 60px;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr .9fr;
+    gap: 26px;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 26px;
+  }
+
+  .hero-copy {
+    padding: 10px 0;
+  }
+
+  .stop {
+    display: inline-block;
+    background: var(--red);
+    color: #fff;
+    border: 5px solid #fff;
+    outline: 6px solid rgba(255, 70, 30, .38);
+    box-shadow: 0 0 28px rgba(255, 70, 30, .55);
+    padding: 8px 18px;
+    font-weight: 1000;
+    font-size: clamp(2rem, 6vw, 4.5rem);
+    letter-spacing: .05em;
+    transform: rotate(-2deg);
+    margin-bottom: 14px;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: clamp(2.2rem, 5vw, 4.8rem);
+    line-height: .95;
+    text-transform: uppercase;
+    letter-spacing: -.04em;
+  }
+
+  .yellow { color: var(--yellow); }
+
+  .hero p {
+    margin: 16px 0 0;
+    max-width: 680px;
+    color: #eaf0fa;
+    line-height: 1.48;
+    font-size: 1.12rem;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 22px;
+  }
+
+  .hero-actions a {
+    text-decoration: none;
+    border-radius: 12px;
+    border: 3px solid #fff;
+    padding: 14px 18px;
+    font-weight: 1000;
+    text-transform: uppercase;
+  }
+
+  .primary {
+    background: var(--yellow);
+    color: #111;
+    box-shadow: 0 7px 0 #a57400;
+  }
+
+  .secondary {
+    color: #fff;
+  }
+
+  .hero-image {
+    background: #030915;
+    border: 5px solid var(--yellow);
+    border-radius: 26px;
+    padding: 10px;
+    box-shadow: 0 20px 48px rgba(0,0,0,.45);
+  }
+
+  .hero-image img {
+    width: 100%;
+    display: block;
+    border-radius: 18px;
+  }
+
+  .hub {
+    background: var(--cream);
+    border: 5px solid var(--border);
+    border-radius: 30px;
+    padding: 28px;
+    box-shadow: 0 18px 42px rgba(20, 17, 10, .18);
+  }
+
+  .hub-header {
+    text-align: center;
+    margin-bottom: 26px;
+  }
+
+  .kicker {
+    display: inline-block;
+    background: var(--navy);
+    color: var(--yellow);
+    border-radius: 999px;
+    padding: 8px 14px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    margin-bottom: 10px;
+  }
+
+  .hub h2 {
+    margin: 0;
+    font-size: clamp(2rem, 4.4vw, 3.8rem);
+    line-height: .95;
+    text-transform: uppercase;
+  }
+
+  .hub-header p {
+    margin: 12px auto 0;
+    max-width: 760px;
+    color: var(--muted);
+    font-size: 1.08rem;
+    line-height: 1.55;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+  }
+
+  .product {
+    background: var(--paper);
+    border: 4px solid var(--border);
+    border-radius: 26px;
+    overflow: hidden;
+    min-height: 470px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 11px 0 rgba(17,24,39,.16);
+  }
+
+  .product-head {
+    min-height: 165px;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .creatine { background: linear-gradient(135deg, #0d3e19, #35a331); }
+  .omega { background: linear-gradient(135deg, #07396b, #2397f3); }
+  .magnesium { background: linear-gradient(135deg, #38105b, #8b45c7); }
+  .d3 { background: linear-gradient(135deg, #9a6100, #ffd64a); color: #111; }
+  .theanine { background: linear-gradient(135deg, #16412b, #55b579); }
+  .zinc { background: linear-gradient(135deg, #29394a, #94a8be); }
+
+  .rank {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    background: #fff;
+    color: #111;
+    border: 3px solid #111;
+    border-radius: 999px;
+    padding: 6px 10px;
+    font-weight: 1000;
+  }
+
+  .symbol {
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    font-size: 3.2rem;
+    filter: drop-shadow(0 5px 8px rgba(0,0,0,.25));
+  }
+
+  .product-head h3 {
+    margin: 0;
+    font-size: 2.15rem;
+    text-transform: uppercase;
+    line-height: .95;
+  }
+
+  .product-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .paul-says {
+    display: inline-block;
+    width: fit-content;
+    background: #edf7ed;
+    color: #126b27;
+    border: 2px solid #126b27;
+    border-radius: 999px;
+    padding: 7px 12px;
+    font-weight: 1000;
+    margin-bottom: 12px;
+  }
+
+  .product-body p {
+    margin: 0 0 14px;
+    color: #384253;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+
+  .meta {
+    background: #f2eadb;
+    border: 2px solid #d7c7ac;
+    border-radius: 16px;
+    padding: 12px;
+    margin-bottom: 14px;
+  }
+
+  .meta strong {
+    display: block;
+    margin-bottom: 4px;
+    color: #111827;
+  }
+
+  .bullets {
+    padding: 0;
+    margin: 0 0 18px;
+    list-style: none;
+  }
+
+  .bullets li {
+    border-bottom: 1px solid #e1d7c8;
+    padding: 8px 0;
+    font-weight: 700;
+  }
+
+  .buy {
+    margin-top: auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: var(--yellow);
+    color: #111;
+    border: 3px solid #111;
+    border-radius: 14px;
+    padding: 14px 10px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    box-shadow: 0 6px 0 #a57400;
+  }
+
+  .buy:hover {
+    filter: brightness(.96);
+    transform: translateY(1px);
+  }
+
+  .trust {
+    margin-top: 26px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .trust-box {
+    background: #fff;
+    border: 3px solid var(--border);
+    border-radius: 20px;
+    padding: 18px;
+    text-align: center;
+  }
+
+  .trust-box strong {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+  }
+
+  .disclosure {
+    margin-top: 24px;
+    background: #fff;
+    border-left: 7px solid var(--yellow);
+    border-radius: 14px;
+    padding: 16px;
+    color: #4b5563;
+    line-height: 1.55;
+    font-size: .95rem;
+  }
+
+  footer {
+    background: #020713;
+    color: #fff;
+    border-top: 5px solid var(--yellow);
+    text-align: center;
+    padding: 28px 18px 40px;
+  }
+
+  @media (max-width: 960px) {
+    .hero { grid-template-columns: 1fr; }
+    .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+
+  @media (max-width: 680px) {
+    .grid, .trust { grid-template-columns: 1fr; }
+    .hub { padding: 20px; }
+    .hero-actions a { width: 100%; text-align: center; }
+  }
+</style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">Paul's <span>Product Evaluations</span></div>
+      <div class="top-note">No hype. No guesswork. Convenient picks delivered to your door.</div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="stop">STOP</div>
+        <h1>Wasting Money on <span class="yellow">Supplements</span></h1>
+        <p>You clicked because you wanted the full list. Here is the clean version: six practical supplement categories, each with a direct buying path.</p>
+        <div class="hero-actions">
+          <a class="primary" href="#product-grid">See Product Grid</a>
+          <a class="secondary" href="#disclosure">Affiliate Disclosure</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="supplement-fb-funnel-image.png" alt="Stop wasting money on supplements Facebook promotional graphic">
+      </div>
+    </section>
+
+    <section class="hub" id="product-grid">
+      <div class="hub-header">
+        <div class="kicker">The Buying Hub</div>
+        <h2>Six Simple Product Paths</h2>
+        <p>Each box is a purchase doorway. Pick the category that matches your goal, then use the button to view Amazon options with Paul's affiliate tag already included.</p>
+      </div>
+
+      <div class="grid">
+        <article class="product">
+          <div class="product-head creatine">
+            <div class="rank">#1</div>
+            <div class="symbol">💪</div>
+            <h3>Creatine</h3>
+          </div>
+          <div class="product-body">
+            <span class="paul-says">Paul Says: Strong Pick</span>
+            <p>Best starting point for strength, muscle support, and workout performance.</p>
+            <div class="meta"><strong>Best for:</strong> Strength, muscle, performance</div>
+            <ul class="bullets">
+              <li>Simple daily routine</li>
+              <li>High-value supplement category</li>
+              <li>Good first recommendation</li>
+            </ul>
+            <a class="buy" href="https://www.amazon.com/s?k=creatine+monohydrate&tag=paulevaluator-20" target="_blank" rel="nofollow sponsored noopener">View Creatine Picks</a>
+          </div>
+        </article>
+
+        <article class="product">
+          <div class="product-head omega">
+            <div class="rank">#2</div>
+            <div class="symbol">🐟</div>
+            <h3>Omega-3</h3>
+          </div>
+          <div class="product-body">
+            <span class="paul-says">Paul Says: Recommended</span>
+            <p>Useful for people who do not regularly eat fatty fish and want a general wellness option.</p>
+            <div class="meta"><strong>Best for:</strong> Heart, brain, joint support</div>
+            <ul class="bullets">
+              <li>Popular daily softgel category</li>
+              <li>Good wellness routine fit</li>
+              <li>Convenient to order online</li>
+            </ul>
+            <a class="buy" href="https://www.amazon.com/s?k=omega+3+fish+oil&tag=paulevaluator-20" target="_blank" rel="nofollow sponsored noopener">View Omega-3 Picks</a>
+          </div>
+        </article>
+
+        <article class="product">
+          <div class="product-head magnesium">
+            <div class="rank">#3</div>
+            <div class="symbol">🌙</div>
+            <h3>Magnesium</h3>
+          </div>
+          <div class="product-body">
+            <span class="paul-says">Paul Says: Recommended</span>
+            <p>A common pick for evening routines, recovery support, and general wellness shoppers.</p>
+            <div class="meta"><strong>Best for:</strong> Sleep routine, recovery, relaxation</div>
+            <ul class="bullets">
+              <li>Popular nighttime option</li>
+              <li>Often paired with wellness routines</li>
+              <li>Simple category to understand</li>
+            </ul>
+            <a class="buy" href="https://www.amazon.com/s?k=magnesium+glycinate&tag=paulevaluator-20" target="_blank" rel="nofollow sponsored noopener">View Magnesium Picks</a>
+          </div>
+        </article>
+
+        <article class="product">
+          <div class="product-head d3">
+            <div class="rank">#4</div>
+            <div class="symbol">☀️</div>
+            <h3>Vitamin D3</h3>
+          </div>
+          <div class="product-body">
+            <span class="paul-says">Paul Says: Consider</span>
+            <p>Worth considering when sun exposure is low or vitamin D has been identified as a concern.</p>
+            <div class="meta"><strong>Best for:</strong> Low sun exposure, daily wellness</div>
+            <ul class="bullets">
+              <li>Common daily supplement</li>
+              <li>Easy buying category</li>
+              <li>Good seasonal consideration</li>
+            </ul>
+            <a class="buy" href="https://www.amazon.com/s?k=vitamin+d3&tag=paulevaluator-20" target="_blank" rel="nofollow sponsored noopener">View Vitamin D3 Picks</a>
+          </div>
+        </article>
+
+        <article class="product">
+          <div class="product-head theanine">
+            <div class="rank">#5</div>
+            <div class="symbol">🍵</div>
+            <h3>L-Theanine</h3>
+          </div>
+          <div class="product-body">
+            <span class="paul-says">Paul Says: Useful Pairing</span>
+            <p>Often paired with caffeine for smoother focus and less jittery energy.</p>
+            <div class="meta"><strong>Best for:</strong> Calm focus, caffeine pairing</div>
+            <ul class="bullets">
+              <li>Good with morning coffee</li>
+              <li>Simple focus-support category</li>
+              <li>Useful for productivity routines</li>
+            </ul>
+            <a class="buy" href="https://www.amazon.com/s?k=l-theanine&tag=paulevaluator-20" target="_blank" rel="nofollow sponsored noopener">View L-Theanine Picks</a>
+          </div>
+        </article>
+
+        <article class="product">
+          <div class="product-head zinc">
+            <div class="rank">#6</div>
+            <div class="symbol">🛡️</div>
+            <h3>Zinc</h3>
+          </div>
+          <div class="product-body">
+            <span class="paul-says">Paul Says: Conditional</span>
+            <p>Can make sense when intake is low, but it is not something to overdo.</p>
+            <div class="meta"><strong>Best for:</strong> Targeted support when appropriate</div>
+            <ul class="bullets">
+              <li>Useful in the right context</li>
+              <li>Not a “more is better” item</li>
+              <li>Good conditional recommendation</li>
+            </ul>
+            <a class="buy" href="https://www.amazon.com/s?k=zinc+supplement&tag=paulevaluator-20" target="_blank" rel="nofollow sponsored noopener">View Zinc Picks</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="trust">
+        <div class="trust-box"><strong>Backed by Practicality</strong>Clear reasons, not hype.</div>
+        <div class="trust-box"><strong>Easy Transaction Path</strong>Choose category → view Amazon options.</div>
+        <div class="trust-box"><strong>Curated by Paul</strong>Simple picks for real shoppers.</div>
+      </div>
+
+      <div class="disclosure" id="disclosure">
+        <strong>Affiliate disclosure:</strong> As an Amazon Associate, Paul's Product Evaluations may earn from qualifying purchases. This page is for general informational and shopping guidance only and is not medical advice. Consult a qualified healthcare professional before starting supplements, especially if you take medications or have health conditions.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>Paul's Product Evaluations</strong><br />
+    I test it. I measure it. I tell you the truth.
+  </footer>
+</body>
+</html>
